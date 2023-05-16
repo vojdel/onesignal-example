@@ -1,0 +1,7 @@
+{
+  "name": "07-push-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
