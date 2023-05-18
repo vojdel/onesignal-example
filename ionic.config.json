@@ -1,7 +1,8 @@
 {
   "name": "07-push-app",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
