@@ -2,12 +2,13 @@ POST https://onesignal.com/api/v1/notifications
 Authorization: Basic ZTc5YmMwOTktMjI4ZS00NzgyLThiNGItZTViYzMzOTgzOTRm
 Content-Type: application/json
 
+// Authorization: Basic {OneSignal App ID]
 {
-    "app_id": "63b5b61a-fddf-4aad-b5de-a53bf79986eb",
-    "data": {
+    "app_id": "63b5b61a-fddf-4aad-b5de-a53bf79986eb", // ID de la aplicación en OneSiganl
+    "data": { // Los datos que se enviaran desde el mensaje ejemplo: id del usuario
         "userId": 123456
     },
-    "contents": { "en": "Just Android"},
-    "headings": {"en": "Android"},
-    "include_player_ids": ["bedac840-9327-44f8-ba7a-ddc7b7f0967d"]
+    "contents": { "en": "Just Android"}, // el cuerpo del mensaje
+    "headings": {"en": "Android"}, // el titulo del mensaje
+    "include_player_ids": ["bedac840-9327-44f8-ba7a-ddc7b7f0967d"] // arreglo de ids de los usuarios
 }
